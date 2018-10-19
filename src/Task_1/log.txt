@@ -2,14 +2,14 @@ Customer_1696 gave order to Josef [Customer_1696_Thread]
 Customer_1697 choose vanilla ice cream [Customer_1697_Thread]
 Customer_1697 got assigned to Josef and is now trying to order [Customer_1697_Thread]
 Josef got order from Customer_1696 [Josef_Thread]
-Josef is preparring order from Customer_1696
+Josef is preparing order from Customer_1696
 Customer_1698 choose vanilla ice cream [Customer_1698_Thread]
 Customer_1698 got assigned to John and is now trying to order [Customer_1698_Thread]
 Customer_1698 gave order to John [Customer_1698_Thread]
 Customer_1696 submitted his order and is now waiting for ice [Customer_1696_Thread]
 Customer_1698 submitted his order and is now waiting for ice [Customer_1698_Thread]
 John got order from Customer_1698 [John_Thread]
-John is preparring order from Customer_1698
+John is preparing order from Customer_1698
 Customer_1699 choose vanilla ice cream [Customer_1699_Thread]
 Customer_1699 got assigned to Jeremiah and is now trying to order [Customer_1699_Thread]
 Customer_1700 choose vanilla ice cream [Customer_1700_Thread]
@@ -27,8 +27,8 @@ Customer_1699 gave order to Jeremiah [Customer_1699_Thread]
 Customer_1699 submitted his order and is now waiting for ice [Customer_1699_Thread]
 Customer_1695 got ice and is eating now [Customer_1695_Thread]
 Jeremiah got order from Customer_1699 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1699
-Josef is preparring order from Customer_1700
+Jeremiah is preparing order from Customer_1699
+Josef is preparing order from Customer_1700
 Customer_1693 ate his ice and leaves now [Customer_1693_Thread]
 In the shop there is now 2 seats available [Customer_1693_Thread]
 Customer_1693 left the shop [Customer_1693_Thread]
@@ -39,13 +39,13 @@ Customer_1700 got ice and is eating now [Customer_1700_Thread]
 Customer_1697 gave order to Josef [Customer_1697_Thread]
 Customer_1697 submitted his order and is now waiting for ice [Customer_1697_Thread]
 Josef got order from Customer_1697 [Josef_Thread]
-Josef is preparring order from Customer_1697
+Josef is preparing order from Customer_1697
 James is delivering ice to Customer_1690 [James_Thread]
 Customer_1690 got ice and is eating now [Customer_1690_Thread]
 Customer_1691 gave order to James [Customer_1691_Thread]
 Customer_1691 submitted his order and is now waiting for ice [Customer_1691_Thread]
 James got order from Customer_1691 [James_Thread]
-James is preparring order from Customer_1691
+James is preparing order from Customer_1691
 Adding customers [main]
 Customer_1701 is waiting to enter the shop [Customer_1701_Thread]
 Customer_1701 entered the shop and checks the menu [Customer_1701_Thread]
@@ -72,7 +72,7 @@ Customer_1702 got assigned to John and is now trying to order [Customer_1702_Thr
 Customer_1702 gave order to John [Customer_1702_Thread]
 Customer_1702 submitted his order and is now waiting for ice [Customer_1702_Thread]
 John got order from Customer_1702 [John_Thread]
-John is preparring order from Customer_1702
+John is preparing order from Customer_1702
 Customer_1704 choose vanilla ice cream [Customer_1704_Thread]
 Customer_1704 got assigned to Josef and is now trying to order [Customer_1704_Thread]
 Customer_1703 choose vanilla ice cream [Customer_1703_Thread]
@@ -81,7 +81,7 @@ Jeremiah is delivering ice to Customer_1699 [Jeremiah_Thread]
 Customer_1703 gave order to Jeremiah [Customer_1703_Thread]
 Customer_1699 got ice and is eating now [Customer_1699_Thread]
 Jeremiah got order from Customer_1703 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1703
+Jeremiah is preparing order from Customer_1703
 Customer_1703 submitted his order and is now waiting for ice [Customer_1703_Thread]
 Customer_1700 ate his ice and leaves now [Customer_1700_Thread]
 In the shop there is now 2 seats available [Customer_1700_Thread]
@@ -94,7 +94,7 @@ Customer_1691 got ice and is eating now [Customer_1691_Thread]
 Customer_1701 gave order to James [Customer_1701_Thread]
 Customer_1701 submitted his order and is now waiting for ice [Customer_1701_Thread]
 James got order from Customer_1701 [James_Thread]
-James is preparring order from Customer_1701
+James is preparing order from Customer_1701
 John is delivering ice to Customer_1702 [John_Thread]
 Josef is delivering ice to Customer_1697 [Josef_Thread]
 Customer_1702 got ice and is eating now [Customer_1702_Thread]
@@ -102,7 +102,7 @@ Customer_1704 gave order to Josef [Customer_1704_Thread]
 Customer_1704 submitted his order and is now waiting for ice [Customer_1704_Thread]
 Customer_1697 got ice and is eating now [Customer_1697_Thread]
 Josef got order from Customer_1704 [Josef_Thread]
-Josef is preparring order from Customer_1704
+Josef is preparing order from Customer_1704
 Customer_1699 ate his ice and leaves now [Customer_1699_Thread]
 In the shop there is now 4 seats available [Customer_1699_Thread]
 Customer_1699 left the shop [Customer_1699_Thread]
@@ -137,16 +137,16 @@ Customer_1707 got assigned to James and is now trying to order [Customer_1707_Th
 Customer_1707 gave order to James [Customer_1707_Thread]
 Customer_1707 submitted his order and is now waiting for ice [Customer_1707_Thread]
 James got order from Customer_1707 [James_Thread]
-James is preparring order from Customer_1707
+James is preparing order from Customer_1707
 Josef got order from Customer_1705 [Josef_Thread]
-Josef is preparring order from Customer_1705
+Josef is preparing order from Customer_1705
 Customer_1705 submitted his order and is now waiting for ice [Customer_1705_Thread]
 Customer_1706 choose vanilla ice cream [Customer_1706_Thread]
 Customer_1706 got assigned to John and is now trying to order [Customer_1706_Thread]
 Customer_1706 gave order to John [Customer_1706_Thread]
 Customer_1706 submitted his order and is now waiting for ice [Customer_1706_Thread]
 John got order from Customer_1706 [John_Thread]
-John is preparring order from Customer_1706
+John is preparing order from Customer_1706
 Customer_1703 ate his ice and leaves now [Customer_1703_Thread]
 In the shop there is now 5 seats available [Customer_1703_Thread]
 Customer_1703 left the shop [Customer_1703_Thread]
@@ -190,15 +190,15 @@ Customer_1710 got assigned to Josef and is now trying to order [Customer_1710_Th
 Customer_1710 gave order to Josef [Customer_1710_Thread]
 Customer_1710 submitted his order and is now waiting for ice [Customer_1710_Thread]
 Josef got order from Customer_1710 [Josef_Thread]
-Josef is preparring order from Customer_1710
+Josef is preparing order from Customer_1710
 Customer_1709 got assigned to Josef and is now trying to order [Customer_1709_Thread]
 Customer_1711 choose vanilla ice cream [Customer_1711_Thread]
 Customer_1711 got assigned to John and is now trying to order [Customer_1711_Thread]
 Customer_1708 submitted his order and is now waiting for ice [Customer_1708_Thread]
 Jeremiah got order from Customer_1708 [Jeremiah_Thread]
 John got order from Customer_1712 [John_Thread]
-John is preparring order from Customer_1712
-Jeremiah is preparring order from Customer_1708
+John is preparing order from Customer_1712
+Jeremiah is preparing order from Customer_1708
 Customer_1707 ate his ice and leaves now [Customer_1707_Thread]
 In the shop there is now 4 seats available [Customer_1707_Thread]
 Customer_1707 left the shop [Customer_1707_Thread]
@@ -210,7 +210,7 @@ Customer_1710 got ice and is eating now [Customer_1710_Thread]
 Customer_1709 gave order to Josef [Customer_1709_Thread]
 Customer_1709 submitted his order and is now waiting for ice [Customer_1709_Thread]
 Josef got order from Customer_1709 [Josef_Thread]
-Josef is preparring order from Customer_1709
+Josef is preparing order from Customer_1709
 Jeremiah is delivering ice to Customer_1708 [Jeremiah_Thread]
 Customer_1708 got ice and is eating now [Customer_1708_Thread]
 Josef is delivering ice to Customer_1709 [Josef_Thread]
@@ -237,7 +237,7 @@ Customer_1712 got ice and is eating now [Customer_1712_Thread]
 Customer_1711 gave order to John [Customer_1711_Thread]
 Customer_1711 submitted his order and is now waiting for ice [Customer_1711_Thread]
 John got order from Customer_1711 [John_Thread]
-John is preparring order from Customer_1711
+John is preparing order from Customer_1711
 Customer_1713 choose vanilla ice cream [Customer_1713_Thread]
 Customer_1715 choose vanilla ice cream [Customer_1715_Thread]
 Customer_1715 got assigned to John and is now trying to order [Customer_1715_Thread]
@@ -250,12 +250,12 @@ Customer_1713 got assigned to Josef and is now trying to order [Customer_1713_Th
 Customer_1713 gave order to Josef [Customer_1713_Thread]
 Customer_1713 submitted his order and is now waiting for ice [Customer_1713_Thread]
 Josef got order from Customer_1713 [Josef_Thread]
-Josef is preparring order from Customer_1713
+Josef is preparing order from Customer_1713
 Customer_1717 submitted his order and is now waiting for ice [Customer_1717_Thread]
 Customer_1716 choose vanilla ice cream [Customer_1716_Thread]
 Customer_1716 got assigned to Jeremiah and is now trying to order [Customer_1716_Thread]
 Jeremiah got order from Customer_1717 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1717
+Jeremiah is preparing order from Customer_1717
 Customer_1718 choose vanilla ice cream [Customer_1718_Thread]
 Customer_1718 got assigned to Jeremiah and is now trying to order [Customer_1718_Thread]
 Customer_1708 ate his ice and leaves now [Customer_1708_Thread]
@@ -272,7 +272,7 @@ Customer_1711 got ice and is eating now [Customer_1711_Thread]
 Customer_1714 gave order to John [Customer_1714_Thread]
 Customer_1714 submitted his order and is now waiting for ice [Customer_1714_Thread]
 John got order from Customer_1714 [John_Thread]
-John is preparring order from Customer_1714
+John is preparing order from Customer_1714
 Josef is delivering ice to Customer_1713 [Josef_Thread]
 Customer_1713 got ice and is eating now [Customer_1713_Thread]
 Adding customers [main]
@@ -282,7 +282,7 @@ Customer_1718 gave order to Jeremiah [Customer_1718_Thread]
 Customer_1719 is waiting to enter the shop [Customer_1719_Thread]
 Customer_1719 entered the shop and checks the menu [Customer_1719_Thread]
 Jeremiah got order from Customer_1718 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1718
+Jeremiah is preparing order from Customer_1718
 Customer_1718 submitted his order and is now waiting for ice [Customer_1718_Thread]
 Customer_1721 is waiting to enter the shop [Customer_1721_Thread]
 Customer_1720 is waiting to enter the shop [Customer_1720_Thread]
@@ -295,7 +295,7 @@ Customer_1719 got assigned to James and is now trying to order [Customer_1719_Th
 Customer_1719 gave order to James [Customer_1719_Thread]
 Customer_1719 submitted his order and is now waiting for ice [Customer_1719_Thread]
 James got order from Customer_1719 [James_Thread]
-James is preparring order from Customer_1719
+James is preparing order from Customer_1719
 Customer_1721 choose vanilla ice cream [Customer_1721_Thread]
 Customer_1721 got assigned to James and is now trying to order [Customer_1721_Thread]
 Customer_1720 choose vanilla ice cream [Customer_1720_Thread]
@@ -313,7 +313,7 @@ Customer_1722 got assigned to John and is now trying to order [Customer_1722_Thr
 Customer_1715 gave order to John [Customer_1715_Thread]
 Customer_1714 got ice and is eating now [Customer_1714_Thread]
 John got order from Customer_1715 [John_Thread]
-John is preparring order from Customer_1715
+John is preparing order from Customer_1715
 Customer_1715 submitted his order and is now waiting for ice [Customer_1715_Thread]
 Customer_1717 ate his ice and leaves now [Customer_1717_Thread]
 In the shop there is now 2 seats available [Customer_1717_Thread]
@@ -322,20 +322,20 @@ Jeremiah is delivering ice to Customer_1718 [Jeremiah_Thread]
 Customer_1716 gave order to Jeremiah [Customer_1716_Thread]
 Customer_1718 got ice and is eating now [Customer_1718_Thread]
 Jeremiah got order from Customer_1716 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1716
+Jeremiah is preparing order from Customer_1716
 Customer_1716 submitted his order and is now waiting for ice [Customer_1716_Thread]
 John is delivering ice to Customer_1715 [John_Thread]
 Customer_1715 got ice and is eating now [Customer_1715_Thread]
 Customer_1722 gave order to John [Customer_1722_Thread]
 John got order from Customer_1722 [John_Thread]
-John is preparring order from Customer_1722
+John is preparing order from Customer_1722
 Customer_1722 submitted his order and is now waiting for ice [Customer_1722_Thread]
 James is delivering ice to Customer_1719 [James_Thread]
 Customer_1719 got ice and is eating now [Customer_1719_Thread]
 Customer_1721 gave order to James [Customer_1721_Thread]
 Customer_1721 submitted his order and is now waiting for ice [Customer_1721_Thread]
 James got order from Customer_1721 [James_Thread]
-James is preparring order from Customer_1721
+James is preparing order from Customer_1721
 Customer_1714 ate his ice and leaves now [Customer_1714_Thread]
 In the shop there is now 3 seats available [Customer_1714_Thread]
 Customer_1714 left the shop [Customer_1714_Thread]
@@ -359,7 +359,7 @@ James is delivering ice to Customer_1721 [James_Thread]
 Customer_1720 gave order to Jeremiah [Customer_1720_Thread]
 Customer_1721 got ice and is eating now [Customer_1721_Thread]
 Jeremiah got order from Customer_1720 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1720
+Jeremiah is preparing order from Customer_1720
 Customer_1723 choose vanilla ice cream [Customer_1723_Thread]
 Customer_1723 got assigned to Jeremiah and is now trying to order [Customer_1723_Thread]
 Customer_1720 submitted his order and is now waiting for ice [Customer_1720_Thread]
@@ -372,7 +372,7 @@ Customer_1725 submitted his order and is now waiting for ice [Customer_1725_Thre
 James got order from Customer_1725 [James_Thread]
 Customer_1726 choose vanilla ice cream [Customer_1726_Thread]
 Customer_1726 got assigned to James and is now trying to order [Customer_1726_Thread]
-James is preparring order from Customer_1725
+James is preparing order from Customer_1725
 Customer_1715 ate his ice and leaves now [Customer_1715_Thread]
 In the shop there is now 1 seats available [Customer_1715_Thread]
 Customer_1715 left the shop [Customer_1715_Thread]
@@ -389,4 +389,4 @@ Customer_1720 got ice and is eating now [Customer_1720_Thread]
 Customer_1727 gave order to Jeremiah [Customer_1727_Thread]
 Customer_1727 submitted his order and is now waiting for ice [Customer_1727_Thread]
 Jeremiah got order from Customer_1727 [Jeremiah_Thread]
-Jeremiah is preparring order from Customer_1727
+Jeremiah is preparing order from Customer_1727

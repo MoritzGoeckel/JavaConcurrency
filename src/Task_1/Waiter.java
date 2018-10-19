@@ -3,7 +3,7 @@ package Task_1;
 public class Waiter implements Runnable{
     private final String name;
 
-    public Waiter(String name){
+    Waiter(String name){
         this.name = name;
     }
 
@@ -26,7 +26,7 @@ public class Waiter implements Runnable{
     }
 
     private Customer currentCustomer;
-    public synchronized void submitOrder(Customer customer) throws InterruptedException{
+    synchronized void submitOrder(Customer customer) throws InterruptedException{
         while(currentCustomer != null)
             wait();
 
@@ -36,13 +36,13 @@ public class Waiter implements Runnable{
     }
 
     private void prepareOrder() throws InterruptedException{
-        System.out.format("%s is preparring order from %s%n", getName(), currentCustomer.getName(), Thread.currentThread().getName());
+        System.out.format("%s is preparing order from %s in [%s]%n", getName(), currentCustomer.getName(), Thread.currentThread().getName());
         Thread.sleep((long)(2d + Math.random() * 4d) * IceCreamShop.timeUnit);
         System.out.format("%s is delivering ice to %s [%s]%n", getName(), currentCustomer.getName(), Thread.currentThread().getName());
         currentCustomer.receiveIce();
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 }

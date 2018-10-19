@@ -4,18 +4,18 @@ public class Customer implements Runnable{
     private final String name;
     private final IceCreamShop shop;
 
-    public Customer(String name, IceCreamShop shop){
+    Customer(String name, IceCreamShop shop){
         this.name = name;
         this.shop = shop;
     }
 
-    boolean hasIce = false;
-    public synchronized void receiveIce(){
+    private boolean hasIce = false;
+    synchronized void receiveIce(){
         hasIce = true;
         notifyAll();
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
@@ -31,20 +31,27 @@ public class Customer implements Runnable{
     public synchronized void run() {
         try {
             System.out.format("%s is waiting to enter the shop [%s]%n", getName(), Thread.currentThread().getName());
-            shop.enterCafe();
+            shop.enterShop();
+
             System.out.format("%s entered the shop and checks the menu [%s]%n", getName(), Thread.currentThread().getName());
             chooseIce();
             System.out.format("%s choose vanilla ice cream [%s]%n", getName(), Thread.currentThread().getName());
+
             Waiter w = shop.getAWaiter();
             System.out.format("%s got assigned to %s and is now trying to order [%s]%n", getName(), w.getName(), Thread.currentThread().getName());
+
             w.submitOrder(this);
             System.out.format("%s submitted his order and is now waiting for ice [%s]%n", getName(), Thread.currentThread().getName());
+
             while (!hasIce)
                 wait();
+
             System.out.format("%s got ice and is eating now [%s]%n", getName(), Thread.currentThread().getName());
             eatIce();
+
             System.out.format("%s ate his ice and leaves now [%s]%n", getName(), Thread.currentThread().getName());
-            shop.leaveCafe();
+            shop.leaveShop();
+
             System.out.format("%s left the shop [%s]%n", getName(), Thread.currentThread().getName());
         }
         catch (InterruptedException e) {

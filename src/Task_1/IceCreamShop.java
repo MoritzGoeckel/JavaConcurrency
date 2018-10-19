@@ -5,14 +5,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class IceCreamShop {
-    public static int timeUnit = 10;
+    static int timeUnit = 1000;
 
     private List<Waiter> waiters = new ArrayList<>();
     private int availableSeats = 10;
     private ArrayList<Thread> threads = new ArrayList<>();
 
 
-    public IceCreamShop(){
+    private IceCreamShop(){
         waiters.add(new Waiter("James"));
         waiters.add(new Waiter("John"));
         waiters.add(new Waiter("Josef"));
@@ -25,7 +25,7 @@ public class IceCreamShop {
     }
 
     private int customerID = 0;
-    public void addCustomers(){
+    private void addWaveOfCustomers(){
         int numberNewCustomers = (int)(3 + Math.random() * 4);
         for(int i = 0; i < numberNewCustomers; i++){
             String name = "Customer_" + customerID++;
@@ -34,24 +34,24 @@ public class IceCreamShop {
         }
     }
 
-    public synchronized void enterCafe() throws InterruptedException{
+    synchronized void enterShop() throws InterruptedException{
         while (availableSeats == 0)
             wait();
 
         availableSeats--;
     }
 
-    public synchronized void leaveCafe(){
+    synchronized void leaveShop(){
         availableSeats++;
         System.out.format("In the shop there is now %s seats available [%s]%n", availableSeats, Thread.currentThread().getName());
         notify();
     }
 
-    public Waiter getAWaiter(){
+    Waiter getAWaiter(){
         return waiters.get((int)(Math.random() * waiters.size()));
     }
 
-    public void removeDeadThreads(){
+    private void removeDeadThreads(){
         threads = threads.stream()
                 .filter(Thread::isAlive)
                 .collect(Collectors.toCollection(ArrayList::new));
@@ -62,7 +62,7 @@ public class IceCreamShop {
         IceCreamShop shop = new IceCreamShop();
         while (true) {
             System.out.format("Adding customers [%s]%n", Thread.currentThread().getName());
-            shop.addCustomers();
+            shop.addWaveOfCustomers();
             shop.removeDeadThreads();
             Thread.sleep(6 * timeUnit);
         }
