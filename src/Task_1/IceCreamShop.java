@@ -55,7 +55,7 @@ public class IceCreamShop {
         threads = threads.stream()
                 .filter(Thread::isAlive)
                 .collect(Collectors.toCollection(ArrayList::new));
-        System.out.format("In and in front of the shop are 4 waiters and %s customers [%s]%n", threads.size() - 4, Thread.currentThread().getName());
+        System.out.format("----> In and in front of the shop are 4 waiters and %s customers [%s]%n", threads.size() - 4, Thread.currentThread().getName());
     }
 
     public static void main(String... args) throws InterruptedException{
