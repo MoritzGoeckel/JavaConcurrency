@@ -8,7 +8,7 @@ public class Waiter implements Runnable{
     private final String name;
 
     private Lock customerLock = new ReentrantLock();
-    private Condition newCustomer = customerLock.newCondition();
+    private Condition hasCustomer = customerLock.newCondition();
     private Condition noCustomer = customerLock.newCondition();
 
     Waiter(String name){
@@ -21,7 +21,7 @@ public class Waiter implements Runnable{
             while (true){
                 customerLock.lock();
                 while (currentCustomer == null)
-                    newCustomer.await();
+                    hasCustomer.await();
 
                 System.out.format("%s got order from %s [%s]%n", getName(), currentCustomer.getName(), Thread.currentThread().getName());
                 prepareOrder();
@@ -44,7 +44,7 @@ public class Waiter implements Runnable{
 
         currentCustomer = customer;
         System.out.format("%s gave order to %s [%s]%n", currentCustomer.getName(), getName(), Thread.currentThread().getName());
-        newCustomer.signal();
+        hasCustomer.signal();
         customerLock.unlock();
     }
 

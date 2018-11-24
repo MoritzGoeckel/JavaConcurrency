@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 public class IceCreamShop {
-    static int timeUnit = 5;
+    static int timeUnit = 1000;
 
     private List<Waiter> waiters = new ArrayList<>();
     private final int SEATS_IN_SHOP = 10;
@@ -21,8 +21,7 @@ public class IceCreamShop {
         waiters.add(new Waiter("Josef"));
         waiters.add(new Waiter("Jeremiah"));
 
-        for(Waiter w : waiters)
-            threadExecutor.execute(w);
+        waiters.forEach(w -> threadExecutor.execute(w));
     }
 
     private int customerID = 0;
